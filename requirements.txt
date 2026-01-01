@@ -1,0 +1,16 @@
+streamlit
+sentence-transformers
+torch
+transformers
+numpy
+pandas
+scikit-learn
+pdfplumber
+pytesseract
+pillow
+opencv-python
+SpeechRecognition
+pydub
+joblib
+scipy
+
