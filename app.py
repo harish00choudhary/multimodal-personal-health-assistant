@@ -1,11 +1,12 @@
 import streamlit as st
 import joblib
-from text_analyzer import analyze_text
+from src.text_analyzer import analyze_text
 
 label_map = joblib.load("label_map.pkl")
 
 # Load model & vectorizer
-model = joblib.load("disease_model.pkl")
+model = joblib.load("disease_model.pkl") # src - ?
+
 vectorizer = joblib.load("vectorizer.pkl")
 
 st.set_page_config(page_title="Multimodal Health Assistant", layout="centered")
