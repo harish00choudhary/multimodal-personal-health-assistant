@@ -27,6 +27,7 @@ python train_model.py
 2. `streamlit run app.py`
 
 ## ⚠️ Download !! 
+[Download disease_model.pkl](https://drive.google.com/file/d/1MJdVnUVv7f1Ur0joQHpgmWDC9Ctjjj5E/view)
 
 ## Output Explanation
 

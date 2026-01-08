@@ -1,6 +1,6 @@
 import streamlit as st
 import joblib
-from text_analyzer import analyze_text
+from src.text_analyzer import analyze_text
 
 label_map = joblib.load("label_map.pkl")
 
